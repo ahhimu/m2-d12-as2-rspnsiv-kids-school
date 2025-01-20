@@ -1,0 +1,88 @@
+/* Added Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+
+
+/* Shared Styles */
+.display-flex{
+    display: flex;
+    /* align-content: center; */
+    /* margin: 0;
+    padding: 0; */
+}
+
+.max-width{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.primary-txt-clr{
+    color: orange;
+}
+.primary-bg-clr{
+    background-color: orange;
+}
+
+.primary-btn{
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 60px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight:300;
+    /* margin-left: 186px; */
+}
+
+
+
+
+/* Navbar Related Styles Start Here */
+
+
+.nav-menu ul>li{
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    margin-left: 32px;
+}
+.navbar{
+    justify-content: space-around;
+}
+.nav-menu-btn{
+    align-items: center;
+}
+
+.logo-title{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.nav-logo{
+    gap: 11px;
+    align-items: center;
+}
+
+/* Anchor Menu Text Color Styling */
+
+.menu-link1, .menu-link2, .menu-link3, .menu-link4{
+    font-size:1.25rem;
+    font-weight: bold;
+    }
+.menu-link2{
+    color:skyblue ;
+}
+.menu-link3{
+    color:#05D4DF ;
+}
+.menu-link4{
+    color:#5D58EF;
+}

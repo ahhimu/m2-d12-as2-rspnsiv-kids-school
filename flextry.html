@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Div in flex</title>
+
+    <style>
+        .container{
+            display: flex;
+            gap: 5px;
+            justify-content: space-between;
+            align-items: center;
+            height: 400px;
+            background-color: green;
+        }
+        .child{
+            border: 1 px solid black;
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            /* text-align: center; */
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="child">
+            <img src="assets/logo.png" alt="">
+            <h2>School</h2>
+        </div>
+        <div class="child">I am 2</div>
+        <div class="child">I am 3</div>
+    </div>
+    
+</body>
+</html>
