@@ -10,16 +10,13 @@
 
 
 
-/* Shared Styles */
+/* Shared Styles Shared Style Shared Style Shared Style */    
 .display-flex{
     display: flex;
-    /* align-content: center; */
-    /* margin: 0;
-    padding: 0; */
 }
 
 .max-width{
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .primary-txt-clr{
@@ -28,23 +25,18 @@
 .primary-bg-clr{
     background-color: orange;
 }
-
 .primary-btn{
-    background-color: orange;
+    background-color:black;
+    color:white;
+    border-radius:12px;
     border: none;
-    border-radius: 8px;
-    padding: 10px 60px;
-    color: white;
-    font-size: 1.2rem;
-    font-weight:300;
-    /* margin-left: 186px; */
+    font-size:1.25rem ;
+    font-weight:bold;
+    padding: 10px 47px;
 }
 
 
-
-
 /* Navbar Related Styles Start Here */
-
 
 .nav-menu ul>li{
     list-style: none;
@@ -56,9 +48,21 @@
 }
 .navbar{
     justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .nav-menu-btn{
     align-items: center;
+   
+}
+.nav-btn{
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 55px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight:500;
 }
 
 .logo-title{
@@ -85,4 +89,65 @@
 }
 .menu-link4{
     color:#5D58EF;
+}
+
+.hermburg-icon{
+    display: none;
+    height: 30px;
+    width: 30px;
+}
+
+/* Navbar Related Styles End Here */
+
+/* Banner Related Style Start Here */
+.banner{
+    align-items: center;
+    gap: 50px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+/* Banner Title related Styling */
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    /* max-width: 644px;
+    margin: 0 auto; */
+}
+.tv{
+    color: skyblue;
+}
+.banner-description{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.banner-img{
+    width: 100%;
+}
+
+
+/* Responsive for Mobile Device */
+
+@media screen and (max-width:576px) {
+        .logo-title, .nav-menu-btn, .nav-menu, .nav-btn{
+            display: none;
+        }
+        .navbar{
+            border-bottom: 2px solid orange;
+            margin: 0;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+    .banner{
+        flex-direction: column-reverse;
+        margin:8px 16px 40px 16px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    
 }
