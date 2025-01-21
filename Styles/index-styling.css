@@ -65,6 +65,11 @@
     font-weight:500;
 }
 
+/* Story Button Relater Shared Style Start Here */
+
+
+
+
 .logo-title{
     font-size: 2rem;
     font-weight: 600;
@@ -138,6 +143,7 @@
 .main-card{
     gap: 29px;
     justify-content: center;
+    max-width: 1160px;
 }
 
 .main-title{
@@ -150,8 +156,8 @@
 .card-1, .card-2, .card-3{
     border-radius:19px;
     text-align: center;
-    padding: 52px 40px;
-    width: 368px;
+    /* padding: 52px 40px; */
+    /* width: 360px; */
 }
 .card-1{
     background: linear-gradient(to bottom, #DEF5FFCC,#FFFFFFFF);
@@ -167,6 +173,7 @@
 .card-3{
     background: linear-gradient(to bottom,#F2E8FF,#FFFFFF);
     border: 1px solid #F2E8FF ;
+    /* background-color: #5D58EF; */
 }
 .card-title{
     font-weight: bold;
@@ -197,6 +204,27 @@
     
 }
 
+.main-angle-btn{
+    /* margin-top:80 px;
+    margin-bottom: 60px; */
+    width: 130px;
+    margin: 80px auto;
+}
+
+.less-then, .gtr-then{
+    background-color: orange;
+    height: 60px;
+    width: 60px;
+    padding: 17px, 20px;
+    color: wheat;
+    border: none;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* Our Story Related Style  Our Story Related Style */
+
+
 
 
 
@@ -212,13 +240,16 @@
         .logo-title, .nav-menu-btn, .nav-menu, .nav-btn{
             display: none;
         }
-        /* .hermburg-icon{
-           visibility: visible;
-        } */
+        .hermburg-icon{
+           display: inline-block;
+           margin-left: 230px;
+        }
         .navbar{
             border-bottom: 2px solid orange;
             margin: 0;
             padding: 15px;
+            /* justify-content: end; */
+            
         }
 
     .banner{
@@ -233,13 +264,12 @@
         text-align: center;
     }
 .main{
-   
     width: 100%;
 }
     .main-card{
         flex-direction: column;
         justify-content: center;
-        /* max-width: 100%; */
+        max-width: 100%;
 /
     }
     .main-title{
@@ -247,9 +277,13 @@
         font-weight: bold;
     }
     .card-1, .card-2, .card-3{
-        /* max-width: 300px; */
+        max-width: 357px;
         margin: 0 auto;
+        padding: 22px 81px;
      
+    }
+    .main-angle-btn{
+        display: none;
     }
     
 }
