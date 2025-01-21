@@ -239,7 +239,7 @@
     .main-card{
         flex-direction: column;
         justify-content: center;
-        max-width: 100%;
+        /* max-width: 100%; */
 /
     }
     .main-title{
@@ -247,7 +247,7 @@
         font-weight: bold;
     }
     .card-1, .card-2, .card-3{
-        max-width: 300px;
+        /* max-width: 300px; */
         margin: 0 auto;
      
     }
