@@ -368,5 +368,16 @@
     .main-angle-btn{
         display: none;
     }
+
+/* Our Story Section Related Style */
+
+    .our-story-left{
+        display: none;
+    }
+    .our-story-right{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 5px;
+    }
     
 }
