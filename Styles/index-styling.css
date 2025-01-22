@@ -102,7 +102,22 @@
     width: 30px;
 }
 
-/* Navbar Related Styles End Here */
+/* Marque Related Style */
+.marque{
+    /* background-color: #05D4DF; */
+    margin-top:5px;
+}
+.mnotice{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.mr-massage{
+    font-weight: bold;
+    color: orange;
+    font-size: 1.5rem;
+}
+
+
 
 /* Banner Related Style Start Here */
 .banner{
@@ -315,6 +330,7 @@
     justify-content: center;
     /* align-items: center; */
     margin-top: 80px;
+   
 }
 .view-all-btn{
     background-color: black;
@@ -324,7 +340,12 @@
     border-radius: 12px;
     font-size: 1.25rem;
     font-weight:bold;
+    margin-bottom: 60px;
    /* margin: 80px auto; */
+}
+
+.footer-section{
+    background-color: #05D4DF;
 }
 
 
@@ -398,6 +419,7 @@
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         gap: 5px;
+        
     }
 
     /* View All Button Related Style */
